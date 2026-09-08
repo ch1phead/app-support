@@ -7,3 +7,4 @@ This repository is published with GitHub Pages. Each app has its own privacy and
 ## Apps
 
 - [Time Progress](docs/time-progress/)
+- [Golden Desk](docs/golden-desk/)
