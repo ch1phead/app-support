@@ -12,16 +12,23 @@
     <a class="brand" href="../"><span class="rings" aria-hidden="true"></span>Time Progress</a>
     <article class="card">
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective September 2, 2026</p>
-      <p class="lede">Time Progress is designed to work privately on your device.</p>
+      <p class="meta">Updated September 25, 2026</p>
+      <p class="lede">Time Progress keeps your rings on your devices, supports private iCloud sync, and uses a limited timer service for Live Activity updates.</p>
       <h2>Data collection</h2>
-      <p>Time Progress does not collect, store, transmit, sell, or share personal information or usage information. No account is required.</p>
+      <p>No Time Progress account is required. The app does not ask for your name, email address, location, contacts, or photos. It does not sell your data. The services described below are used to sync your rings and keep your Focus / Break Live Activity current.</p>
       <h2>Tracking and advertising</h2>
-      <p>Time Progress does not track users, display advertising, or use advertising identifiers. The app does not include analytics, telemetry, or third-party tracking services.</p>
+      <p>Time Progress does not track users across apps or websites, display advertising, or use advertising identifiers. It does not include advertising SDKs or behavioral analytics.</p>
       <h2>On-device calculations</h2>
       <p>Time calculations are performed locally on your device using its system date, time, calendar, and time-zone settings. Core app functionality does not require an internet connection.</p>
       <h2>Settings, widgets, and reminders</h2>
       <p>Your display preferences and reminder choices are stored locally on your device. A private Apple App Group shares relevant preferences between Time Progress and its widgets. If you enable milestone reminders, they are scheduled and delivered locally by the operating system. This information is not sent to the developer.</p>
+      <h2>iCloud sync</h2>
+      <p>When iCloud is available, custom ring titles, dates, colors, reminder choices, supported display preferences, and the metadata needed to reconcile edits sync through your private iCloud database to devices using the same Apple Account. This includes a randomly generated installation identifier used to resolve edits. Your rings and these preferences are not sent to the timer service. Apple operates iCloud under its own terms and privacy policy. Without iCloud, rings remain available locally.</p>
+      <h2>Focus / Break Live Activities</h2>
+      <p>When you run a Focus / Break Live Activity, the app sends its activity-specific push token and identifier, Focus or Break phase, timer start and end times, running state, and latest update time over HTTPS to a timer service hosted on Cloudflare. The service stores the current timer registration so it can send phase changes through Apple Push Notification service while the app is closed. This data is used only to provide the timer feature; it is not used for advertising or analytics and is not associated with a Time Progress account.</p>
+      <p>The timer registration is removed when the service receives a stop or reset request, or Apple reports that its push token has expired. Failed network requests can delay removal until another update or removal request is received. After removal, the service keeps only a last-update timestamp for up to 24 hours to prevent a delayed request from restarting an old timer. Apple and Cloudflare process service requests under their applicable terms and privacy policies.</p>
+      <h2>Your choices</h2>
+      <p>You can pause or reset the Focus / Break timer, manage Live Activities in iOS Settings, delete custom rings in the app, and manage Time Progress's iCloud access in your Apple Account settings. Deleting a custom ring syncs its removal when iCloud is available. Core progress calculations work without an internet connection; remote Live Activity phase changes and iCloud sync require one.</p>
       <h2>Contact</h2>
       <p>For privacy questions, <a href="https://github.com/ch1phead/app-support/issues/new">open a support request on GitHub</a>. GitHub issues are public, so please do not include sensitive personal information.</p>
       <h2>Changes to this policy</h2>
